@@ -27,8 +27,8 @@ class CurrentAccount extends question3
 }
 class bankdetail {
 	  public static void main(String[] args) {
-	    SavingAccount SA = new SavingAccount();  // Create a employee object
-	    CurrentAccount CA = new CurrentAccount();  // Create a manager object
+	    SavingAccount SA = new SavingAccount();  // Create a saving account object
+	    CurrentAccount CA = new CurrentAccount();  // Create a current account object
 	    SA.amount();
 	    CA.amount();
 	   System.out.println("total amount in bank " + (SA.fixedDeposite+ CA.cashCredit));
